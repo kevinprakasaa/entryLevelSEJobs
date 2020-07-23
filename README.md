@@ -14,11 +14,15 @@ This website is implemented with:
 
 ⌨️ Redis + node-redis
 
-# To run front-end: npm install
+# How to use: 
 
-# To start worker: node worker/index.js
+To install dependencies: npm install
 
-# To start api: node api/index.js
+To run front-end: npm start
+
+To start express worker: node worker/index.js
+
+To start cron-redis: node api/index.js
 
 ## Video Walkthrough
 Here's a walkthrough of implemented user stories:
